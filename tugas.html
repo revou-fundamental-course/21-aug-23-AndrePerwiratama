@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tugas revou andre</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+
+    <img src="images/logo-sekolah-dasar.png" width="150px" height="100px">
+    
+    </section>
+</header>
+<body>
+    
+    <main>
+    <div class="navbar">
+        <div class="nav item-1"><p>message us</p></div>
+        <div class="nav item-2"><p>achivement</p></div>
+        <div class="nav item-3"><p>our profile</p></div>
+        <div class="nav item-4"><p>home</p></div>
+    </div>
+    </main> 
+    <hr>
+
+    <form name="name-form" onsubmit="return validateForm()">
+        <input type="text" placeholder="masukkan nama kamu" id="name-input">
+        <button id="submit" type="submit">kirim</button>
+        <p id="error-name" class="error-name"></p>
+    </form>
+
+    <h1> Halo <span id="name"> - </span>. selamat datang di website SD Indo 1
+    </h1>
+
+    <div>
+        <img class="img-slideshow" src="images/image-1.jpg">
+        <img class="img-slideshow" src="images/image-2.jpg">
+        <img class="img-slideshow" src="images/image-3.jpg">
+    </div>
+
+    <hr>
+
+    <h1>fasilitas kami</h1>
+    <figure>
+        <img class="fasilitas" src="images/gambar-1.jpg">
+        <img class="fasilitas" src="images/gambar-2.jpg">
+        <img class="fasilitas" src="images/gambar-3.jpg">
+    </figure>
+
+    <hr>
+
+    <h1>Message us</h1>
+
+    <form class="message-form" name="message-form" onsubmit="return MessageForm()">
+
+        Nama : <input required placeholder="Nama" type="text" name="full-name" id="full-name">
+        <br>
+        Tanggal lahir : <input required type="date" name="birth-name" id="birth-name">
+        <br>
+        Jenis kelamin : 
+        <input type="radio" id="male" name="gender" value="Laki-laki" >
+        <label for="male">laki-laki</label>
+        <input type="radio" id="female" name="gender" value="Perempuan" >
+        <label for="female">perempuan</label>
+        <br>
+        <p></p>
+        <textarea placeholder="tulis pesan kamu disini" name="messages" id="messages"></textarea>
+        <p><button id="submit-name" type="submit">kirim</button></p>
+        <br>
+    </form>
+
+    <div class="sender-info">
+        hari ini <span id="datetime"></span>
+        <br>
+        <p>Nama : <span id="sender-full-name"></span></p>
+        <p>Tanggal lahir : <span id="sender-birth-date"></span></p>
+        <p>Jenis kelamin : <span id="sender-gender"></span></p>
+        <p>pesan : <span id="sender-message" class="sender-message"></span></p>
+    </div>
+ 
+    <script src="js/script.js"></script>
+</body>
+</html>

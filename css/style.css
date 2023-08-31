@@ -1,0 +1,67 @@
+h1 {
+    color: black;
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.error-name{
+    color: red;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.message-form{
+    padding-left: 30px;
+}
+
+.nav{
+    background-color: beige;
+    width: 200px;
+    color: black;
+    border: 2px solid;
+    float: left;
+    margin: 2px;
+    text-align: center;
+}
+
+.img-slideshow{
+    width: 600px;
+    height: 400px;
+}
+
+.fasilitas{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.sender-info{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 600px;
+    border: 3px solid black;
+    
+}
+
+.sender-message{
+    display: flex;
+    flex-wrap: wrap;
+}
